@@ -193,7 +193,7 @@ class EnhancedProductReviewSummarizer:
         if not reviews:
             return []
         import google.generativeai as genai
-        genai.configure(api_key='AIzaSyAxapy6Z_v-K5PHaR3HXQHJfArudTlqBQs')
+        genai.configure(api_key='-----')
         model = genai.GenerativeModel("gemini-1.5-flash")
         query = "Give key aspects of the product from these reviews in clear concise points of not more that 7 words each"
         for i in reviews:
