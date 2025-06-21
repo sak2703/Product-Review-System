@@ -1,4 +1,4 @@
-# Product Review System
+#InsightFuse- Product Review System
 
 A comprehensive product review analysis tool that leverages cutting-edge Natural Language Processing (NLP) techniques to detect fake reviews, analyze sentiment, and summarize authentic feedback from e-commerce platforms. The project uses state-of-the-art machine learning models like BERT for classification and BART for summarization.
 
